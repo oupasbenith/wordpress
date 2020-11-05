@@ -1,8 +1,8 @@
 version: "3.3"
-services:
-     
+
+services:    
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     environment:
      - PMA_ARBITRARY=1
@@ -28,3 +28,5 @@ services:
       WORDPRESS_DEBUG: 1
     volumes:
       - wp_data:/var/www/html
+volumes:
+  wp_data:

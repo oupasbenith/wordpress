@@ -23,7 +23,7 @@ services:
       WORDPRESS_DB_HOST: ${DockerWordpressMaster.Endpoint.Address}:3306
       WORDPRESS_DB_NAME: DockerWordpressMaster
       WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: P@$$w0rdEd10
+      WORDPRESS_DB_PASSWORD: UIEdto27
       WORDPRESS_TABLE_PREFIX: "wp_"
       WORDPRESS_DEBUG: 1
     volumes:
